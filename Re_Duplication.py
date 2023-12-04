@@ -13,7 +13,6 @@ def cal():
     i = 3
     for x in group:
         L[f"E{i}"].value = x
-        #print(L[f"E{i}"].value)
         i+=1
     we.save('End_Cal.xlsx')
 cal()
